@@ -38,7 +38,10 @@ jobs:
       - name: Build React App
         uses: borales/actions-yarn@v2.0.0
         with:
-          cmd: build # will run `yarn build` command      
+          cmd: build # will run `yarn build` command
+      # Install Firebase
+      - name: Install Firebase
+        run: npm install -g firebase          
       # Install Surge      
       - name: Install Surge
         run: npm install -g surge
