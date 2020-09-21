@@ -47,4 +47,4 @@ jobs:
         run: npm install -g surge
       # Run Surge
       - name: Run Surge
-        run: surge ./build/ shahzaibnoor-quiz-pwa-bootcamp-2020.surge.sh --token ${{ secrets.shahzaib_quiz_pwa_bootcamp_2020 }}  
+        run: surge ./build/ https://shahzaibnoor-quiz-pwa-bootcamp-2020.surge.sh --token ${{ secrets.shahzaib_quiz_pwa_bootcamp_2020 }}  
