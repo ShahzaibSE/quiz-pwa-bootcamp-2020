@@ -4,6 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Demo
+
+Test the demo in the production mode.<br/>
+Open [https://shahzaibnoor-quiz-app-bootcamp-2020.surge.sh](https://shahzaibnoor-quiz-app-bootcamp-2020.surge.sh) to view it in the browser.
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
